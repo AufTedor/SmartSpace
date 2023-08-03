@@ -74,7 +74,14 @@
 @media (max-width: 767.98px) {
   .header__burger {
     display: block;
+    z-index: 6;
   }
+
+  .header__logo {
+    position: realetive;
+    z-index: 6;
+  }
+  
   .header__nav {
     transition: all 0.3s ease 0s;
     position: fixed;
@@ -83,6 +90,7 @@
     top: -100%;
     left: 0;
     background-color: #fff;
+    z-index: 5;
   }
   .header__nav.active {
     top: 0;
